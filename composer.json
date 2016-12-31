@@ -8,6 +8,7 @@
             "email": "axdlee110@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.4.0"
     },
