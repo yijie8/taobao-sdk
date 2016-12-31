@@ -1,4 +1,5 @@
 <?php
+namespace Tbsdk\Top\Domain;
 
 /**
  * 淘宝客店铺
@@ -42,4 +43,3 @@ class NTbkShop
 	 **/
 	public $user_id;	
 }
-?>

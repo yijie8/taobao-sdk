@@ -1,4 +1,5 @@
 <?php
+namespace Tbsdk\Top\Domain;
 
 /**
  * 口令参数
@@ -32,4 +33,3 @@ class IsvTpwdInfo
 	 **/
 	public $user_id;	
 }
-?>

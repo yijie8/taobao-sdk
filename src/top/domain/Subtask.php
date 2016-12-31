@@ -1,4 +1,5 @@
 <?php
+namespace Tbsdk\Top\Domain;
 
 /**
  * 批量异步任务的子任务结果
@@ -22,4 +23,3 @@ class Subtask
 	 **/
 	public $sub_task_result;	
 }
-?>

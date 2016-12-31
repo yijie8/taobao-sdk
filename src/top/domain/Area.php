@@ -1,4 +1,5 @@
 <?php
+namespace Tbsdk\Top\Domain;
 
 /**
  * 地址区域结构
@@ -32,4 +33,3 @@ class Area
 	 **/
 	public $zip;	
 }
-?>

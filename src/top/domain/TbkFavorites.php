@@ -1,4 +1,5 @@
 <?php
+namespace Tbsdk\Top\Domain;
 
 /**
  * 淘宝客选品库
@@ -22,4 +23,3 @@ class TbkFavorites
 	 **/
 	public $type;	
 }
-?>

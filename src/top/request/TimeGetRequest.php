@@ -1,4 +1,6 @@
 <?php
+namespace Tbsdk\Top\Request;
+
 /**
  * TOP API: taobao.time.get request
  * 

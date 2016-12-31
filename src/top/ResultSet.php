@@ -1,4 +1,5 @@
 <?php
+namespace Tbsdk\Top;
 /**
  * 返回的默认类
  * 

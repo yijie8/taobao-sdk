@@ -1,4 +1,6 @@
 <?php
+namespace Tbsdk\Top;
+
 class TopLogger
 {
 	public $conf = array(
@@ -40,4 +42,3 @@ class TopLogger
 		fwrite($this->getFileHandle(), $logData);
 	}
 }
-?>

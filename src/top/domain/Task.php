@@ -1,4 +1,5 @@
 <?php
+namespace Tbsdk\Top\Domain;
 
 /**
  * 批量异步任务结果
@@ -49,4 +50,3 @@ class Task
 	 **/
 	public $task_id;	
 }
-?>

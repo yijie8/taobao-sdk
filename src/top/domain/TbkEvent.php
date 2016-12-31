@@ -1,4 +1,5 @@
 <?php
+namespace Tbsdk\Top\Domain;
 
 /**
  * 淘客定向招商活动基本信息
@@ -27,4 +28,3 @@ class TbkEvent
 	 **/
 	public $start_time;	
 }
-?>

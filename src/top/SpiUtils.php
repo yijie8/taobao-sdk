@@ -1,40 +1,48 @@
 <?php
+namespace Tbsdk\Top;
+
 class SpiUtils{
 	private static $top_sign_list = "HTTP_TOP_SIGN_LIST";
 	private static $timestamp = "timestamp";
 	private static $header_real_ip = array("X_Real_IP", "X_Forwarded_For", "Proxy_Client_IP",
 											"WL_Proxy_Client_IP", "HTTP_CLIENT_IP", "HTTP_X_FORWARDED_FOR");
-	/**
-	 * 校验SPI请求签名，适用于所有GET请求，及不包含文件参数的POST请求。
-	 * 
-	 * @param request 请求对象
-	 * @param secret app对应的secret
-	 * @return true：校验通过；false：校验不通过
-	 */
+
+    /**
+     * 校验SPI请求签名，适用于所有GET请求，及不包含文件参数的POST请求。
+     *
+     * @param app对应的secret $secret
+     * @return true ：校验通过；false：校验不通过
+     * @internal param 请求对象 $request
+     * @internal param app对应的secret $secret
+     */
 	public static function checkSign4FormRequest($secret){
 		return self::checkSign(null,null,$secret);
 	}
 
-	/**
-	 * 校验SPI请求签名，适用于请求体是xml/json等可用文本表示的POST请求。
-	 * 
-	 * @param request 请求对象
-	 * @param body 请求体的文本内容
-	 * @param secret app对应的secret
-	 * @return true：校验通过；false：校验不通过
-	 */
+    /**
+     * 校验SPI请求签名，适用于请求体是xml/json等可用文本表示的POST请求。
+     *
+     * @param 请求体的文本内容 $body
+     * @param app对应的secret $secret
+     * @return true ：校验通过；false：校验不通过
+     * @internal param 请求对象 $request
+     * @internal param 请求体的文本内容 $body
+     * @internal param app对应的secret $secret
+     */
 	public static function checkSign4TextRequest($body,$secret){
 		return self::checkSign(null,$body,$secret);
 	}
-	
-	/**
-	 * 校验SPI请求签名，适用于带文件上传的POST请求。
-	 * 
-	 * @param request 请求对象
-	 * @param form 除了文件参数以外的所有普通文本参数的map集合
-	 * @param secret app对应的secret
-	 * @return true：校验通过；false：校验不通过
-	 */
+
+    /**
+     * 校验SPI请求签名，适用于带文件上传的POST请求。
+     *
+     * @param 除了文件参数以外的所有普通文本参数的map集合 $form
+     * @param app对应的secret $secret
+     * @return true ：校验通过；false：校验不通过
+     * @internal param 请求对象 $request
+     * @internal param 除了文件参数以外的所有普通文本参数的map集合 $form
+     * @internal param app对应的secret $secret
+     */
 	public static function checkSign4FileRequest($form, $secret){
 		return self::checkSign($form, null, $secret);
 	}
@@ -211,4 +219,3 @@ class SpiUtils{
 		$replace = array(" ", "\r", "\n", "\t"); return str_replace($replace, $glue, $str);
 	}
 }
-?>

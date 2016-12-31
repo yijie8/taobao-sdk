@@ -1,4 +1,5 @@
 <?php
+namespace Tbsdk;
 
 class Autoloader{
   

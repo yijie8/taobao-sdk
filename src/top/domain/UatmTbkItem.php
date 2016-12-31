@@ -1,4 +1,5 @@
 <?php
+namespace Tbsdk\Top\Domain;
 
 /**
  * 淘宝联盟选品和招商宝贝信息
@@ -109,4 +110,3 @@ class UatmTbkItem
 	 **/
 	public $zk_final_price_wap;	
 }
-?>

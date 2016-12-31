@@ -1,4 +1,5 @@
 <?php
+namespace Tbsdk\Top\Domain;
 
 /**
  * KFC 关键词过滤匹配结果
@@ -26,4 +27,3 @@ A、B、C、D等级按严重程度从高至低排列。
 	 **/
 	public $matched;	
 }
-?>

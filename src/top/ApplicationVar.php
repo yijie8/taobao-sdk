@@ -1,4 +1,5 @@
 <?php
+namespace Tbsdk\Top;
 
 class ApplicationVar
 {
@@ -43,5 +44,3 @@ class ApplicationVar
       @fclose($fp);
  	}
 }
-
-?>

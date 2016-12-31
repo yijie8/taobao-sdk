@@ -1,4 +1,5 @@
 <?php
+namespace Tbsdk\Top;
 
 class HttpdnsGetRequest
 {

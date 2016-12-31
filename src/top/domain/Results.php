@@ -1,4 +1,5 @@
 <?php
+namespace Tbsdk\Top\Domain;
 
 /**
  * 淘抢购对象
@@ -62,4 +63,3 @@ class Results
 	 **/
 	public $zk_final_price;	
 }
-?>

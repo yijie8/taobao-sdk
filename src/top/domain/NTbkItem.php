@@ -1,4 +1,5 @@
 <?php
+namespace Tbsdk\Top\Domain;
 
 /**
  * 淘宝客商品
@@ -87,4 +88,3 @@ class NTbkItem
 	 **/
 	public $zk_final_price_wap;	
 }
-?>

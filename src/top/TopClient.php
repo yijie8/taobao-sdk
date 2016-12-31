@@ -1,4 +1,6 @@
 <?php
+namespace Tbsdk\Top;
+
 class TopClient
 {
 	public $appkey;

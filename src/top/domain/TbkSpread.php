@@ -1,4 +1,5 @@
 <?php
+namespace Tbsdk\Top\Domain;
 
 /**
  * 传播形式对象列表
@@ -17,4 +18,3 @@ class TbkSpread
 	 **/
 	public $err_msg;	
 }
-?>

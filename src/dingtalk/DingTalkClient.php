@@ -1,4 +1,6 @@
 <?php
+namespace Tbsdk\DingTalk;
+
 class DingTalkClient
 {
 	/**@Author chaohui.zch copy from TopClient and modify 2016-12-14 **/

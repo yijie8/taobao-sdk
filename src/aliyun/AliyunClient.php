@@ -1,4 +1,6 @@
 <?php
+namespace Tbsdk\Aliyun;
+
 class AliyunClient
 {
 	public $accessKeyId;

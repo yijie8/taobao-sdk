@@ -1,4 +1,5 @@
 <?php
+namespace Tbsdk\Top\Domain;
 
 /**
  * 请求列表，内部包含多个url
@@ -12,4 +13,3 @@ class TbkSpreadRequest
 	 **/
 	public $url;	
 }
-?>
