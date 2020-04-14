@@ -1,11 +1,11 @@
 {
-    "name": "axdlee/taobao-sdk",
+    "name": "yijie8/taobao-sdk",
     "description": "淘宝SDK2.x 兼容composer安装使用",
     "license": "MIT",
     "authors": [
         {
-            "name": "Sheldon Lee",
-            "email": "axdlee110@gmail.com"
+            "name": "Yijie",
+            "email": "1@tta.cn"
         }
     ],
     "minimum-stability": "dev",
