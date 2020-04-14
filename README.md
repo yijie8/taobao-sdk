@@ -4,7 +4,7 @@
 ##使用
 ~~~
 //安装
-composer require "axdlee/taobao-sdk":"dev-master"
+composer require "yijie8/taobao-sdk":"dev-master"
 
 //引用
 use Tbsdk\Top\TopClient;
