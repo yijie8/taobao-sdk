@@ -1,11 +1,10 @@
 <?php
 namespace Tbsdk\Top\Request;
-
 /**
  * TOP API: taobao.tbk.uatm.favorites.get request
  * 
  * @author auto create
- * @since 1.0, 2016.04.29
+ * @since 1.0, 2018.10.10
  */
 class TbkUatmFavoritesGetRequest
 {

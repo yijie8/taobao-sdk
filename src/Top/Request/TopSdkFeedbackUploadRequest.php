@@ -1,11 +1,10 @@
 <?php
 namespace Tbsdk\Top\Request;
-
 /**
  * TOP API: taobao.top.sdk.feedback.upload request
  * 
  * @author auto create
- * @since 1.0, 2016.08.19
+ * @since 1.0, 2018.07.25
  */
 class TopSdkFeedbackUploadRequest
 {

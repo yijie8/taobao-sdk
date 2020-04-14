@@ -1,11 +1,10 @@
 <?php
 namespace Tbsdk\Top\Request;
-
 /**
  * TOP API: taobao.tbk.ju.tqg.get request
  * 
  * @author auto create
- * @since 1.0, 2016.09.08
+ * @since 1.0, 2018.07.25
  */
 class TbkJuTqgGetRequest
 {
@@ -30,7 +29,7 @@ class TbkJuTqgGetRequest
 	private $pageNo;
 	
 	/** 
-	 * 页大小，默认96，1~96
+	 * 页大小，默认40，1~40
 	 **/
 	private $pageSize;
 	

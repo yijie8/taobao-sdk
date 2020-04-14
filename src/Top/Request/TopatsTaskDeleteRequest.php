@@ -1,6 +1,5 @@
 <?php
 namespace Tbsdk\Top\Request;
-
 /**
  * TOP API: taobao.topats.task.delete request
  * 

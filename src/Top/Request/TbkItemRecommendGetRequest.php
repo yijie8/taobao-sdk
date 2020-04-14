@@ -1,11 +1,10 @@
 <?php
 namespace Tbsdk\Top\Request;
-
 /**
  * TOP API: taobao.tbk.item.recommend.get request
  * 
  * @author auto create
- * @since 1.0, 2016.07.11
+ * @since 1.0, 2018.07.25
  */
 class TbkItemRecommendGetRequest
 {

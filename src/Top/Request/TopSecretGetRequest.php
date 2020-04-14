@@ -1,11 +1,10 @@
 <?php
 namespace Tbsdk\Top\Request;
-
 /**
  * TOP API: taobao.top.secret.get request
  * 
  * @author auto create
- * @since 1.0, 2016.08.19
+ * @since 1.0, 2019.02.25
  */
 class TopSecretGetRequest
 {

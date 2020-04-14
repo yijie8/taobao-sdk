@@ -1,11 +1,10 @@
 <?php
 namespace Tbsdk\Top\Request;
-
 /**
  * TOP API: taobao.top.ipout.get request
  * 
  * @author auto create
- * @since 1.0, 2016.08.30
+ * @since 1.0, 2018.08.07
  */
 class TopIpoutGetRequest
 {

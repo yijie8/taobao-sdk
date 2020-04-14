@@ -1,6 +1,5 @@
 <?php
 namespace Tbsdk\Top\Request;
-
 /**
  * TOP API: taobao.tbk.uatm.event.item.get request
  * 
